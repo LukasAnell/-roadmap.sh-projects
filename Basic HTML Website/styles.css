@@ -49,9 +49,21 @@ body {
     pointer-events: none;
 }
 
-.page-title {
+.navElement {
+    all: unset;
+}
+
+.navElement:hover {
+    cursor: pointer;
+}
+
+.pageTitle {
+    font-size: 18pt;
     text-align: center;
-    margin: 0 auto;
+}
+
+.subTitle {
+    color: darkgray;
 }
 
 .column {
@@ -59,12 +71,18 @@ body {
     padding: 10px;
 }
 
-.leftColumn, .rightColumn {
+.projectsColumn, .educationColumn {
     width: 25%;
+    text-align: match-parent;
 }
 
-.middleColumn {
+.workColumn {
     width: 50%;
+    text-align: center;
+}
+
+.row {
+    list-style-type: none;
 }
 
 .row:after {
@@ -72,3 +90,4 @@ body {
     display: table;
     clear: both;
 }
+
