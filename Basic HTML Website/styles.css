@@ -24,20 +24,33 @@ body {
     padding: 0 10px;
 }
 
+.leftNavbar {
+    float: left;
+}
+
+.leftNavbar li {
+    pointer-events: none;
+
+}
+
 .rightNavbar {
     float: right;
 }
 
-.rightNavbar li + li::before {
+.rightNavbar li {
+    padding: 0 20px;
+}
+
+.rightNavbar li + li:before {
     display: block;
     content: "/";
     position: absolute;
-    right: 0;
+    left: 0;
     pointer-events: none;
 }
 
 .page-title {
-    width: 50%;
+    text-align: center;
     margin: 0 auto;
 }
 
