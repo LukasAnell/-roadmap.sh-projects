@@ -3,8 +3,17 @@
 }
 
 body {
-    padding: 20px 30px;
+    /* padding: 20px 30px; */
     background-color: dimgray;
+    margin: 20px 30px;
+    padding-top: 10px;
+    outline: 2px solid black;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: black;
 }
 
 .navbar {
@@ -73,12 +82,25 @@ body {
 
 .projectsColumn, .educationColumn {
     width: 25%;
-    text-align: match-parent;
+    text-align: left;
+    outline: 2px solid black;
+}
+
+.projectsColumn {
+    outline: 2px solid black;
+    width: 24.7%;
+}
+
+.educationColumn {
+    outline: 2px solid black;
+    margin-left: 2px;
 }
 
 .workColumn {
     width: 50%;
-    text-align: center;
+    text-align: left;
+    outline: 2px solid black;
+    margin-left: 2px;
 }
 
 .row {
@@ -91,3 +113,31 @@ body {
     clear: both;
 }
 
+.rowTitle {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.rowItem {
+    text-align: left;
+    padding: 12px 0;
+    margin-left: -50px;
+    text-indent: 50px;
+}
+
+.rowItem a {
+    text-decoration: none;
+}
+
+.blackLink {
+    color: black;
+}
+
+.blueLink {
+    color: blue;
+}
+
+.row li:not(:nth-child(-n + 2)):not(:last-child) {
+    border-bottom: 2px solid black;
+    width: 121%
+}
