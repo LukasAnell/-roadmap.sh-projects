@@ -79,21 +79,19 @@ hr {
     display: flex;
     float: left;
     padding: 10px;
+    outline: 2px solid black;
 }
 
 .projectsColumn, .educationColumn {
     width: 25%;
     text-align: left;
-    outline: 2px solid black;
 }
 
 .projectsColumn {
-    outline: 2px solid black;
     width: 24.7%;
 }
 
 .educationColumn {
-    outline: 2px solid black;
     margin-left: 2px;
 }
 
